@@ -1,0 +1,41 @@
+.rankings_wrap{
+	margin:  50px auto;
+}
+
+.rankinginfo{
+	padding: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.rankinginfo h2 {
+	text-align: center;
+}
+
+.rankingTable_wrap{
+	margin: auto;
+	padding: 15px;
+}
+
+.rankingUser{
+	position: relative;
+	display: flex;
+	flex-direction:  column;
+	justify-content: space-between;	
+	border:  1px solid black;
+	border-radius: 5px;
+	box-shadow: 3px 2px #888888;
+	padding: 30px;
+	margin: 5px;
+	color: #000;
+	font-weight: bold;
+}
+.rankingUser span{
+ 	transform: translate(-50%,-50%);
+  	position: absolute;
+  	top: 50%;
+  	left: 90%;
+	font-size: 25px;
+	float: right;
+	font-weight: bold;
+	text-align: right;	
+	}

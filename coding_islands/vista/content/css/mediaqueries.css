@@ -1,0 +1,193 @@
+/* movile largue*/
+@media only screen and (min-width: 450px){
+/* LOGIN/SIGNUP FORM */
+	.buttonWrapper{
+		text-align: center;
+	}
+	.button1{
+		width:70%;
+
+	}
+	.LearnMore_a{
+		width:  250px;
+		
+	}
+		/* User_profile. edit_info */
+	.edit_info{
+		width: 80%;
+	}
+}
+
+/* Tablet*/
+@media only screen and (min-width: 763px){
+	
+
+	/* HEADER */
+.header1{
+	width: 37%;
+	text-align: center;
+	}
+
+.header2{
+	display: block;
+}
+
+.navButton{
+	display: none;
+
+}
+
+div.submain {
+	width: 65%;
+	margin: auto;
+}
+
+div.main2{
+	width: 75%;
+	margin: auto;
+}
+
+	/* CURSOS*/
+.cursos{
+	width: 46%;
+
+}
+
+
+/* Footer-*/
+.footerWrap{
+
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color:  white;
+}
+	/* footer nav */
+
+	div.footerNav{
+		background-color: white;
+	}
+
+	.socialContainer{
+		flex-direction: row;
+	}
+
+	/* Informacion.php */
+
+	.info{
+		padding: 50px;
+	}
+
+	/* User_profile. edit_info */
+			
+	.edit_info{
+		width: 100%;
+		
+	}	
+
+	div.input_Wrap{
+	width:40%;
+	}
+
+	form.form_wrap{
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.flex_cerrar_borrar{
+		flex-direction: row;
+	}
+
+}
+
+/* Desktop*/
+@media only screen and (min-width: 1020px){
+
+/* INDEX LANDING PAGE */
+div.main{
+	display: flex;
+	width: 85%;
+	margin: auto;
+	margin-bottom: 8%;
+}
+div.submain {
+	width: 65%;
+	margin:  0 20px;
+	
+}
+
+div.main2{
+	width: 75%;
+	
+}
+
+.formContainer{
+	width: 80%;
+}
+	/* CURSOS */
+
+	.courseContainer{
+		width: 1000px;
+	}
+
+	.cursos{
+	width: 45%;
+
+	}
+
+	/* INFO CURSOS */
+		/* CURSOS FLEXSPECS */
+		.cursoHtmlwrap{
+			flex-direction:row;
+			justify-content: flex-start;
+			width: 1000px;
+			margin:  30px auto;
+
+		}
+
+		.CursoImagenes{
+		margin: 0 15px;
+		width: 65%;
+
+		}
+		.cursoDescripcion{
+			padding: 40px;
+		}
+
+	/* Formulario */
+	.formWrap{
+		width: 1000px;
+		display: flex;	
+		margin: 50px auto;
+		margin-bottom: 150px;
+
+	}
+
+	div.form2info {
+		margin: 0 auto;
+		padding-left: 50px;
+	}
+
+	.footerNav ul li{
+		padding: 10px;
+	}
+
+		/* Informacion.php */
+
+	.info{
+		width: 80%;
+		margin:  50px auto;
+	}
+
+	/* Rankings */
+		.rankingTable_wrap{
+			width: 65%;
+		}
+
+		.user_wrap{
+			width: 65%;
+			margin: auto;
+		}
+			
+}
