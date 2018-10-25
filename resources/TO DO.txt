@@ -1,0 +1,43 @@
+﻿---------------------Antes de empezar:
+*en la carpeta resources esta el archivo SQL y un archivo JSON con las preguntas del curso.
+*en modelo/javascript esta el ajax necesario, que utiliza el archivo JSON para generar las preguntas.
+
+	-En principio todo es funcional, no hay nada que no funcione, puede que algun link muerto. Sobretodo en vista/cursos_xxxx.php
+	Hasta que el usuario no esta registrado no se le permite acceder a los cursos.
+
+	-A medida que el usuario interactua con los cursos y preguntas tipo test la base de datos se actualiza con puntuaciones y verificaciones de lecciones aprobadas y suspendidas.
+
+	- Observar la modificación e inserción de información en la base de datos a medida que se interactua con la web.
+		-Registro
+		-Editar perfil
+		-inscripción a los cursos
+		-avance en los cursos.
+
+------------------Cosas pendientes:
+
+MVC:
+
+hago "echo" de todo desde el controlador, pasar esto a la vista e imprimirlo desde ahi?
+
+- MAQUETACION: Crear el contenido de los /vista/cursos_xxx.php, el arbol de navegacion de las distintas lecciones. (a posteriori, crear distintos modulos y dentro las lecciones
+
+-Investigar y crear las distintas clases de javascript, y aplicarlas a la web.
+-php.ini? session start ahi actualmente esta en class_includes, ya que todas las páginas van a incluirla.
+-info cursos, crear contenido.
+-diseño?, la funcionalidad esta lograda pero el diseño le hace perder mucho.
+
+ - URLS AMIGABLES
+	 * HTACCESS
+	 * ROBOTS
+
+
+- En la clase footer de los includes conseguir que se inserte: <script src="modelo/javascript/lecciones.js"></script> solo en las páginas que lo necesiten (es decir en curso_activo_xxx).
+- Confirmación por email para crear el correo y recuperar contraseña
+-Exportar la base de datos (sin usuarios) antes de entregarlo a ilerna.
+
+-----------------------------------------Errores, problemas.------------------------------------------------------
+
+--Parallax effect no funciona bien en dispositivos moviles.
+
+
+

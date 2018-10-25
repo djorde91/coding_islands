@@ -1,2 +1,0 @@
-#modelo/utilidades/class_conexion.php
-# Aquí esta la info de conexión de la base de datos
