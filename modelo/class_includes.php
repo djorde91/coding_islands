@@ -92,7 +92,7 @@ session_start(); //Colocamos aquí session_start(); por que todas las páginas a
 			<footer class="footer">
 			  <!-- ADDITIONAL INFO -->
 			    <div class="divInfo divInfoBg">
-			      <h2 class="h2main"> Conquista las islas y desarrolla tus habilidades.</h2>
+			      <h2 class="h2main"> Échale un vistazo a nuestro catálogo de cursos</h2>
 			      <a class="LearnMore_a LearnMore_a_2"href="/proyecto/index.php">¡Empieza ahora!</a>
 			    </div>  
 			  <div class="divBanner"> 

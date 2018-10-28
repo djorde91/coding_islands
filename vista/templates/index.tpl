@@ -92,16 +92,13 @@
               ';
           }
           ?>
-          
-
-          
-
+                
         </div>
     </div>
 
     <!-- ADDITIONAL INFO -->
 <div class="divInfo divInfoBg_2">
-    <h2 class="h2main"> Avanza, explora y descubre los misterios que ocultan  <br> las islas del territorio de Aangara.</h2>
+    <h2 class="h2main"> Las nuevas tecnologías están aquí. <br> Coding Islands te lo pone fácil con cursos totalmente gratuitos</h2>
 
 </div>
 
@@ -111,7 +108,7 @@
         <img class="cursoIMG" src="vista/content/img/html5_icon.png" alt="HTML5" title="HTML5">
           <div class="cursoInfo">
             <h2>HTML5</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni sit rem harum ipsa saepe ullam, nemo ex ratione voluptas fuga accusantium deserunt illo voluptatibus vitae voluptatum quod, assumenda iusto!</p>
+            <p>HTML5 es un lenguaje de marcado utilizado masivamente para estructurar y presentar el contenido de una página web.  <br> Es fácil, útil y es la puerta de entrada para aprender desarrollo web.</p>
             <a class="masInfo " href="vista/cursos_info/curso_html.php"> ¡Saber más!</a>
         </div>
       </div>
@@ -121,7 +118,7 @@
           
              <div class="cursoInfo">
                <h2>CSS3</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni sit rem harum ipsa saepe ullam, nemo ex ratione voluptas fuga accusantium deserunt illo voluptatibus vitae voluptatum quod, assumenda iusto!</p>
+               <p>CSS3 (Cascading Style Sheets) es un lenguaje de diseño utilizado para definir, presentar y modificar el aspecto visual de los elementos creados con lenguajes de marcado. Normlamente Se aprende junto a HTML.</p>
             <a class="masInfo" href="vista/cursos_info/curso_css.php">¡Saber más!</a>
               </div>
           
@@ -132,7 +129,7 @@
           
             <div class="cursoInfo">
               <h2>JavaScript</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni sit rem harum ipsa saepe ullam, nemo ex ratione voluptas fuga accusantium deserunt illo voluptatibus vitae voluptatum quod, assumenda iusto!</p>
+              <p>Javascript es un lenguaje de alto nivel, orientado a objetos, mayormente utilizado en lado cliente por sus grandes opciones para manipular y ofrecer mejoras en la interfaz visual del usuario en el entorno web.</p>
               <a class="masInfo" href="vista/cursos_info/curso_javascript.php"> ¡Saber más!</a>
           </div>
     
@@ -142,7 +139,7 @@
         <img class="cursoIMG" src="vista/content/img/php_logo.png" alt="PHP" title="PHP">
             <div class="cursoInfo">
               <h2>PhP</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni sit rem harum ipsa saepe ullam, nemo ex ratione voluptas fuga accusantium deserunt illo voluptatibus vitae voluptatum quod, assumenda iusto!</p>
+              <p>PHP (Hypertext Preprocessor) es un lenguaje de código abierto, gratuito y multiplataforma de lado servidor. <br> Puede comunicarse con bases de datos y es utilizado ampliamente en el desarrollo web.</p>
               <a class="masInfo" href="vista/cursos_info/curso_php.php"> ¡Saber más!</a>
           </div>
       </div>
