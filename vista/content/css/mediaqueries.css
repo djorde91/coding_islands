@@ -78,6 +78,12 @@ div.main2{
 		padding: 50px;
 	}
 
+	div.fotos_container img {
+		width: 50%;
+		float: right;
+		padding: 15px;
+	}
+
 	/* User_profile. edit_info */
 			
 	.edit_info{
@@ -189,5 +195,11 @@ div.main2{
 			width: 65%;
 			margin: auto;
 		}
+
+		div.fotos_container img {
+		min-width: 400px;
+		float: right;
+		padding: 15px;
+	}
 			
 }

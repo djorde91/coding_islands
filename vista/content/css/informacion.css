@@ -8,3 +8,10 @@
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
+
+div.fotos_container img{
+	max-width: 100%;
+	padding: 10px 0;
+	margin: auto;
+
+}

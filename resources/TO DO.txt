@@ -19,9 +19,12 @@ MVC:
 
 hago "echo" de todo desde el controlador, pasar esto a la vista e imprimirlo desde ahi?
 
+-Foto de perfil de usuarios, y que se vea en los rankings. limitarlas a 1mb de tamaño.
+-Confirmación por email para crear el correo y recuperar contraseña
+-Exportar la base de datos (sin usuarios) antes de entregarlo a ilerna.
+
 - MAQUETACION: Crear el contenido de los /vista/cursos_xxx.php, el arbol de navegacion de las distintas lecciones. (a posteriori, crear distintos modulos y dentro las lecciones
 
--Investigar y crear las distintas clases de javascript, y aplicarlas a la web.
 -php.ini? session start ahi actualmente esta en class_includes, ya que todas las páginas van a incluirla.
 -info cursos, crear contenido.
 -diseño?, la funcionalidad esta lograda pero el diseño le hace perder mucho.
@@ -32,8 +35,7 @@ hago "echo" de todo desde el controlador, pasar esto a la vista e imprimirlo des
 
 
 - En la clase footer de los includes conseguir que se inserte: <script src="modelo/javascript/lecciones.js"></script> solo en las páginas que lo necesiten (es decir en curso_activo_xxx).
-- Confirmación por email para crear el correo y recuperar contraseña
--Exportar la base de datos (sin usuarios) antes de entregarlo a ilerna.
+
 
 -----------------------------------------Errores, problemas.------------------------------------------------------
 

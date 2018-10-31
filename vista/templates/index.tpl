@@ -87,7 +87,7 @@
               echo' 
           <div class="form2info">
               <h2>¡Has vuelto! </h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores neque, cum deserunt. Sed tempore veritatis impedit vero, odio qui unde enim error provident voluptatibus, natus voluptatem, nam ducimus facilis perspiciatis?</p>
+              <p>Pásate por tu perfil para seguir con tu avance en nuestros cursos o para modificar tu información de usuario.</p>
           </div>
               ';
           }
