@@ -1,7 +1,7 @@
 <?php
 
 class Conexion {
-        //database config
+       //database config
 	   private $DB_host = "localhost"; 
 	   private $DB_user = "root";
 	   private $DB_pass = "";
