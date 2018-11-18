@@ -37,7 +37,7 @@ function obtener_preguntas_json(num_pregunta){
 
               type:'POST',
               //url: 'curso_activo_xxxx.php' 
-              //Lo estamos enviando a la misma página por lo tanto La URL no es necesaria, al mismo tiempo hace que el código sea dinamico con cada curso
+              //Lo estamos enviando a la misma página por lo tanto La URL no es necesaria.
               data: {pregunta: pregunta, //$_POST[pregunta] = var pregunta
                      respuesta: respuesta}, //$_POST[respuesta] = var respuesta
 

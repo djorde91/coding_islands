@@ -1,27 +1,11 @@
-﻿---------------------Antes de empezar:
-*en la carpeta resources esta el archivo SQL y un archivo JSON con las preguntas del curso.
-*en modelo/javascript esta el ajax necesario, que utiliza el archivo JSON para generar las preguntas.
-
-	-En principio todo es funcional, no hay nada que no funcione, puede que algun link muerto. Sobretodo en vista/cursos_xxxx.php
-	Hasta que el usuario no esta registrado no se le permite acceder a los cursos.
-
-	-A medida que el usuario interactua con los cursos y preguntas tipo test la base de datos se actualiza con puntuaciones y verificaciones de lecciones aprobadas y suspendidas.
-
-	- Observar la modificación e inserción de información en la base de datos a medida que se interactua con la web.
-		-Registro
-		-Editar perfil
-		-inscripción a los cursos
-		-avance en los cursos.
-
-------------------Cosas pendientes:
+﻿------------------Cosas pendientes:
 
 MVC:
 
 hago "echo" de todo desde el controlador, pasar esto a la vista e imprimirlo desde ahi?
 
--Foto de perfil de usuarios, y que se vea en los rankings. limitarlas a 1mb de tamaño.
--Confirmación por email para crear el correo y recuperar contraseña
--Exportar la base de datos (sin usuarios) antes de entregarlo a ilerna.
+-Foto de perfil de usuarios, y que se vea en los rankings.
+-Confirmación por email para crear el correo y recuperar contraseña PHPMailer
 
 - MAQUETACION: Crear el contenido de los /vista/cursos_xxx.php, el arbol de navegacion de las distintas lecciones. (a posteriori, crear distintos modulos y dentro las lecciones
 

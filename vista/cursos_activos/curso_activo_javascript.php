@@ -1,7 +1,10 @@
 <?php
 require_once (__DIR__ . "/../../controlador/class_control_cursos.php");
+require_once (__DIR__ . "/../../controlador/class_control_usuario.php");
 require_once "../../modelo/class_includes.php";
 
+	Control_usuario::cerrar_session();
+	
 	$cursos = new Control_Cursos();
 	//la primera vez que el usuario entre en la página el if no se cumplirá, entrando directamente al else, donde se intentará registrar al usuario en el curso y se cargarán las vistas correspondientes. 
 	if ( isset($_POST['respuesta']) ){

@@ -142,7 +142,7 @@ require_once (__DIR__ . "/../modelo/class_usuario.php");
 		    $v_session = isset($_GET['v_session']) ? $_GET["v_session"] : "default";
 
 		    if ((!isset($_SESSION["session_usuario"]) ) || $v_session =='off') { //$v_session se recibe mediante URL en perfil.tpl.		      
-		      header("Location:../index.php");
+		      header("Location:/proyecto/index.php");
 		      
 		      session_start();
 		   	  session_destroy();

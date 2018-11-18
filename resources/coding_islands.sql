@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.0
+-- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-07-2018 a las 14:06:13
--- Versión del servidor: 10.1.31-MariaDB
--- Versión de PHP: 7.2.4
+-- Tiempo de generación: 05-11-2018 a las 23:25:23
+-- Versión del servidor: 10.1.36-MariaDB
+-- Versión de PHP: 7.0.32
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -40,9 +40,10 @@ CREATE TABLE `cursos` (
 --
 
 INSERT INTO `cursos` (`Nombre_curso`, `Lecciones`, `Usuarios`, `Puntos`) VALUES
-('CSS', 0, 0, 0),
-('HTML', 0, 0, 0),
-('javascript', 0, 0, 0);
+('CSS', 10, 0, 0),
+('HTML', 10, 0, 0),
+('javascript', 10, 0, 0),
+('PHP', 10, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -55,6 +56,15 @@ CREATE TABLE `inscripcion` (
   `Nombre_usuario` varchar(50) NOT NULL,
   `Puntos_curso` int(10) DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `inscripcion`
+--
+
+INSERT INTO `inscripcion` (`Nombre_curso`, `Nombre_usuario`, `Puntos_curso`) VALUES
+('CSS', 'lotup', 106),
+('HTML', 'lotup', 20),
+('javascript', 'lotup', 129);
 
 -- --------------------------------------------------------
 
@@ -103,7 +113,17 @@ INSERT INTO `lecciones` (`ID_Leccion`, `Nombre_leccion`, `Respuesta`, `Puntuacio
 ('javascript6', '¿Cómo escribimos \"hello world\" en una ventana de alerta?', 'c', 52),
 ('javascript7', '¿Cómo creamos una función?', 'd', 69),
 ('javascript8', '¿Cómo empezaría un bucle FOR?', 'a', 71),
-('javascript9', '¿Qué evento se activa cuando el usuario hace click en un elemento HTML?', 'c', 72);
+('javascript9', '¿Qué evento se activa cuando el usuario hace click en un elemento HTML?', 'c', 72),
+('PHP1', '¿Cómo se abre y cierra un bloque de código PHP?', 'a', 20),
+('PHP10', '¿Que sentencia incluye y evalúa el archivo especificado?', 'd', 67),
+('PHP2', '¿Cuál de las siguientes variables ha sido declarada en forma incorrecta?', 'b', 27),
+('PHP3', 'Estructura de control que permite repetir un bloque de instrucciones un número determinado de veces.', 'c', 12),
+('PHP4', '¿Qué función devuelve el número de elementos de un arreglo?', 'c', 38),
+('PHP5', '¿En qué atributo de un formulario especificamos la página a la que se van a enviar los datos?', 'd', 24),
+('PHP6', 'Dos de las formas de pasar los parámetros entre páginas PHP son:', 'c', 10),
+('PHP7', '¿Qué variable superglobal sirve para almacenar información sobre headers, paths y localizaciones de scripts?', 'b', 23),
+('PHP8', '¿Qué función muestra información estructurada sobre una o más expresiones incluyendo su tipo y valor?', 'a', 17),
+('PHP9', '¿Cúal es la interfaz orientada a objetos para acceder a bases de datos?', 'c', 21);
 
 -- --------------------------------------------------------
 
@@ -118,6 +138,42 @@ CREATE TABLE `lecciones_curso` (
   `Leccion_superada` varchar(10) DEFAULT 'false'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Volcado de datos para la tabla `lecciones_curso`
+--
+
+INSERT INTO `lecciones_curso` (`Nombre_curso`, `ID_Leccion`, `Nombre_usuario`, `Leccion_superada`) VALUES
+('CSS', 'CSS1', 'lotup', 'true'),
+('CSS', 'CSS10', 'lotup', 'false'),
+('CSS', 'CSS2', 'lotup', 'true'),
+('CSS', 'CSS3', 'lotup', 'true'),
+('CSS', 'CSS4', 'lotup', 'true'),
+('CSS', 'CSS5', 'lotup', 'true'),
+('CSS', 'CSS6', 'lotup', 'false'),
+('CSS', 'CSS7', 'lotup', 'false'),
+('CSS', 'CSS8', 'lotup', 'false'),
+('CSS', 'CSS9', 'lotup', 'false'),
+('HTML', 'HTML1', 'lotup', 'true'),
+('HTML', 'HTML10', 'lotup', 'false'),
+('HTML', 'HTML2', 'lotup', 'false'),
+('HTML', 'HTML3', 'lotup', 'false'),
+('HTML', 'HTML4', 'lotup', 'false'),
+('HTML', 'HTML5', 'lotup', 'false'),
+('HTML', 'HTML6', 'lotup', 'false'),
+('HTML', 'HTML7', 'lotup', 'false'),
+('HTML', 'HTML8', 'lotup', 'false'),
+('HTML', 'HTML9', 'lotup', 'false'),
+('javascript', 'javascript1', 'lotup', 'true'),
+('javascript', 'javascript10', 'lotup', 'false'),
+('javascript', 'javascript2', 'lotup', 'true'),
+('javascript', 'javascript3', 'lotup', 'true'),
+('javascript', 'javascript4', 'lotup', 'true'),
+('javascript', 'javascript5', 'lotup', 'true'),
+('javascript', 'javascript6', 'lotup', 'false'),
+('javascript', 'javascript7', 'lotup', 'false'),
+('javascript', 'javascript8', 'lotup', 'false'),
+('javascript', 'javascript9', 'lotup', 'false');
+
 -- --------------------------------------------------------
 
 --
@@ -131,6 +187,13 @@ CREATE TABLE `usuarios` (
   `Puntos` int(11) DEFAULT '0',
   `Alias` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `usuarios`
+--
+
+INSERT INTO `usuarios` (`Nombre_usuario`, `Password`, `Email`, `Puntos`, `Alias`) VALUES
+('lotup', '$2y$10$ZODecyWRvh4DiQXZuC7pc./isY562B4w9N/1TjsirvLcvpnJagP1W', 'lotup@gmail.com', 255, 'lotup');
 
 --
 -- Índices para tablas volcadas

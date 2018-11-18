@@ -1,15 +1,13 @@
 <?php
 
 class Conexion {
-	//variables de conexión, no deberían de modificarse nunca.
-	   private $DB_host = "localhost";
+        //database config
+	   private $DB_host = "localhost"; 
 	   private $DB_user = "root";
 	   private $DB_pass = "";
 	   private $DB_name = "coding_islands";
 
 	   protected $conn;
-
-	//faltan variables que se modificarán vía constructores para crear consultas con nuestra BBDD. (y más cosas)
 
 	public function __construct() {
 
